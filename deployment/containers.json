@@ -1,0 +1,15 @@
+[
+    {
+        "name": "interpolation-as-a-service",
+        "image": "${image}",
+        "cpu": 1024,
+        "memory": 3072,
+        "essential": true,
+        "portMappings": [
+            {
+                "containerPort": 7070,
+                "hostPort": 80
+            }
+        ]
+    }
+]
